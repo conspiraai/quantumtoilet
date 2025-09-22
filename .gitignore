@@ -1,0 +1,8 @@
+node_modules
+.DS_Store
+dist
+app/backend/dist
+app/frontend/dist
+data/flush.sqlite
+.env
+npm-debug.log*
