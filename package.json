@@ -1,0 +1,14 @@
+{
+  "name": "quantum-toilet",
+  "private": true,
+  "version": "1.0.0",
+  "workspaces": [
+    "app/frontend",
+    "app/backend"
+  ],
+  "scripts": {
+    "install:all": "npm install --workspaces",
+    "build": "npm run build --workspace app/backend && npm run build --workspace app/frontend",
+    "test": "npm run test --workspace app/backend && npm run test --workspace app/frontend"
+  }
+}
