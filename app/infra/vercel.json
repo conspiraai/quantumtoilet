@@ -1,0 +1,8 @@
+{
+  "rewrites": [
+    { "source": "/api/(.*)", "destination": "/api/$1" },
+    { "source": "/flush", "destination": "/flush" }
+  ],
+  "buildCommand": "npm install && npm run build --workspace app/frontend",
+  "outputDirectory": "app/frontend/dist"
+}
