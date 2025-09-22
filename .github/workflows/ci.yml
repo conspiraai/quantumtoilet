@@ -19,3 +19,4 @@ jobs:
       - run: npm run lint --workspace app/frontend
       - run: npm run test --workspaces
       - run: npm run build --workspaces
+
